@@ -1,0 +1,21 @@
+<div class="introduction">
+  <div class="row">
+    <div class="large-9 columns">
+      <h1 class="subheader">Hello, I'm Lindsey.</h1>
+      <p class="intro">
+        <h3 class="subheader"><strong>I like making things easier for people.</strong> User experience designer, web developer, coffee lover, and future crazy cat lady living in Northeast Ohio. And yes, you totally read that right, Northeast Ohio.</h3>
+      </p>
+    </div>
+    <div class="large-3 columns">
+      <%= image_tag("selfie.jpg", width: "100%", class: "selfie") %>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <section id="main-content" class="large-9 columns" role="content">
+    <%=raw @page.content_for(:body) %>
+  </section>
+  <aside id="sidebar-content" class="large-3 columns">
+    <%=raw @page.content_for(:side_body) %>
+  </aside>
+</div>
