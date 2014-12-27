@@ -10,11 +10,8 @@ $navbar-item-padding:         1.429em;
   padding: $navbar-item-padding 1em;
   border-radius: 0;
 }
-#primary-content {
-  margin-top: 0;
-}
 .hero {
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 .hero h1 {
@@ -27,4 +24,7 @@ $navbar-item-padding:         1.429em;
 }
 .ui.inverted.dark-purple.segment {
   background-color: $dark-purple !important;
+}
+footer {
+  box-shadow: none !important;
 }
