@@ -18,21 +18,14 @@
 
 </head>
 <body>
-  <div class="ui segment">
     <header class="ui vertical segment">
       <div class="ui page grid">
-        <div class="doubling two column row">
-          <div class="six wide column">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
-          <div class="right aligned ten wide column">
-            <nav>
-              <div class="ui text right menu">
-                <a class="item">About</a>
-                <a class="item">Blog <span class="ui small purple label">Coming Soon</span></a>
-              </div>
+        <div class="column">
+          <h1 class="left floated title"><a href="/">{{ site.name }}</a></h1>
+            <nav class="ui right floated text menu">
+              <!--<a class="item">About</a>-->
+              <a class="item">Blog <span class="ui small purple label">Coming Soon</span></a>
             </nav>
-          </div>
         </div>
       </div>
     </header>
@@ -60,7 +53,6 @@
           </div>
       </div>
     </footer>
-  </div>
 
 <!-- build:js({app,.tmp}) /js/scripts.js -->
 <script src="/_bower_components/Semantic-UI/dist/semantic.min.js"></script>
