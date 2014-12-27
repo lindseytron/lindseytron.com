@@ -24,5 +24,3 @@ markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
 pygments: true
-
-baseurl: "/lindseytron.com"
