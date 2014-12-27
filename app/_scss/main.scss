@@ -1,3 +1,30 @@
-.title {
-  display: inline-block;
+$dark-purple:                 #5B3B7E;
+$light-purple:                #9676C1;
+$navbar-item-padding:         1.429em;
+
+#primary-nav {
+  margin-bottom: 0;
+}
+#primary-nav .item { 
+  // target all child items, not just immediate
+  padding: $navbar-item-padding 1em;
+  border-radius: 0;
+}
+#primary-content {
+  margin-top: 0;
+}
+.hero {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.hero h1 {
+  font-size: 4em;
+  color: rgba(255, 255, 255, 0.54);
+}
+.hero p {
+  font-size: 2.5em;
+  color: rgba(255, 255, 255, 0.87);
+}
+.ui.inverted.dark-purple.segment {
+  background-color: $dark-purple !important;
 }
